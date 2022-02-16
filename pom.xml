@@ -6,7 +6,11 @@
 
   <groupId>com.apd.app</groupId>
   <artifactId>microservices-springBoot</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <name>microservices-springBoot</name>
 
