@@ -3,3 +3,15 @@ server:
 spring:
   application:
     name: fraud
+  datasource:
+    username: 'apd'
+    url: jdbc:postgresql://localhost:5433/fraud
+    password: 'password'
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
