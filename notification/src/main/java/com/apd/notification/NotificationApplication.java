@@ -17,7 +17,7 @@ public class NotificationApplication {
         SpringApplication.run(NotificationApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     CommandLineRunner commandLineRunner(
         RabbitMQMessageProducer producer,
         NotificationConfig notificationConfig
@@ -30,5 +30,5 @@ public class NotificationApplication {
         };
     }
 
-    record Person(String name, int age){}
+    record Person(String name, int age){}*/
 }
