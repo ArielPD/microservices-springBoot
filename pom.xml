@@ -15,6 +15,7 @@
     <module>clientsFeign</module>
     <module>notification</module>
     <module>apigw</module>
+      <module>amqp</module>
   </modules>
 
   <name>microservices-springBoot</name>
