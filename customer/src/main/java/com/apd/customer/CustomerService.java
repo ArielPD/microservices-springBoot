@@ -10,6 +10,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class CustomerService {
@@ -61,5 +63,9 @@ public class CustomerService {
                 "internal.notification.routing-key"
         );
 
+    }
+
+    public List<Customer> getCustomers() {
+        return customerRepository.findAll();
     }
 }
